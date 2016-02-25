@@ -1,0 +1,21 @@
+﻿<Controls:MetroWindow x:Class="UitCapacityreFrigerator.Box.Titp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:wpfMedia="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+        Title="Window1" Height="600" Width="1000"
+        WindowStartupLocation = "CenterScreen"
+        ResizeMode="NoResize"
+      >
+
+    <Grid>
+        <Controls:Tile Name="lightTile" TiltFactor="1"  Background="#7fba00" Width="Auto" Height="Auto" Click="lihgtsTileClick" Margin="0">
+            <Controls:Tile.Content>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="/images/Remind.png" Width="649" Height="451" />
+                    <TextBlock Text="黄瓜不足" HorizontalAlignment="Center" FontSize="100" Name="text_tt" />
+                </StackPanel>
+            </Controls:Tile.Content>
+        </Controls:Tile>
+    </Grid>
+</Controls:MetroWindow>

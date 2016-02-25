@@ -1,0 +1,35 @@
+﻿<Controls:MetroWindow x:Class="UitCapacityreFrigerator.Box.write"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+      xmlns:wpfMedia="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+      Title="将要过期物品提醒" Height="600" Width="1024"
+      WindowStartupLocation = "CenterScreen"
+      ResizeMode="NoResize"
+      >
+
+    <Grid>
+        <Button Content="香蕉" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click"/>
+        <Button Content="橘子" HorizontalAlignment="Left" Margin="349,10,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_2"/>
+        <Button Content="薯条" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_6"/>
+        <Button Content="韭菜" HorizontalAlignment="Left" Margin="349,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_14"/>
+        <Button Content="酸奶" HorizontalAlignment="Left" Margin="349,98,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_8" />
+        <Button Content="鸭梨" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_1" />
+        <Button Content="西红柿" HorizontalAlignment="Left" Margin="183,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_13"/>
+        <Button Content="面包" HorizontalAlignment="Left" Margin="185,98,0,0" VerticalAlignment="Top" Width="96" Height="50" Click="Button_Click_7"/>
+        <Button Content="黄瓜" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_12"/>
+        <Button Content="西瓜" HorizontalAlignment="Left" Margin="518,10,0,0" VerticalAlignment="Top" Width="96" Height="50" Click="Button_Click_3" />
+        <Button Content="葡萄" HorizontalAlignment="Left" Margin="692,10,0,0" VerticalAlignment="Top" Width="96" Height="50" Click="Button_Click_4" />
+        <Button Content="樱桃" HorizontalAlignment="Left" Margin="872,10,0,0" VerticalAlignment="Top" Width="96" Height="50" Click="Button_Click_5" />
+        <Button Content="香肠" HorizontalAlignment="Left" Margin="522,98,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_9"/>
+        <Button Content="饼干" HorizontalAlignment="Left" Margin="693,98,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_10"/>
+        <Button Content="果冻" HorizontalAlignment="Left" Margin="872,98,0,0" VerticalAlignment="Top" Width="95" Height="50" RenderTransformOrigin="4.247,0.61" Click="Button_Click_11"/>
+        <Button Content="南瓜" HorizontalAlignment="Left" Margin="524,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_15"/>
+        <Button Content="苦瓜" HorizontalAlignment="Left" Margin="693,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_16"/>
+        <Button Content="蔬菜" HorizontalAlignment="Left" Margin="872,191,0,0" VerticalAlignment="Top" Width="95" Height="50" Click="Button_Click_17"/>
+        <TextBlock  Name="text" HorizontalAlignment="Left" Margin="414,424,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="63" Width="589" FontSize="40"/>
+        <Label Content="重量：" HorizontalAlignment="Left" Margin="10,424,0,0" VerticalAlignment="Top" Height="63" Width="114" FontSize="40"/>
+        <Label Content="物品：" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top" Height="63" Width="114" FontSize="40"/>
+        <TextBlock  x:Name="text_Copy" HorizontalAlignment="Left" Margin="414,334,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="63" Width="594" FontSize="40"/>
+    </Grid>
+</Controls:MetroWindow>
